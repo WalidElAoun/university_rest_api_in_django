@@ -84,6 +84,7 @@ DATABASES = {
         'PASSWORD':'2HO2E0P83B7T3NZ8$',
         'HOST':'universityapplication-server',
         'PORT':'5432',
+        'OPTIONS': {'sslmode': 'require'},
     }
     
 }
