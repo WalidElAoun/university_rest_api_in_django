@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-z#sk)xn1a28c3w&juj4-5afra%ckx_yj)760go=1%1yb1r%y*d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['universityapplication.azurewebsites.net']
 
 
 # Application definition
@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'university_rest_api_in_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'university_db',
-        'USER':'user1',
-        'PASSWORD':'user01',
-        'HOST':'localhost',
-        'PORT':5432,
+        'NAME': 'postgres',
+        'USER':'otpljolaqm',
+        'PASSWORD':'2HO2E0P83B7T3NZ8$',
+        'HOST':'universityapplication-server',
+        'PORT':'5432',
     }
     
 }
